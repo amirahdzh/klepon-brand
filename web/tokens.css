@@ -1,0 +1,55 @@
+/* GENERATED FILE — do not hand-edit.
+ * Source: tokens.json — run `node scripts/build-web.mjs` to regenerate.
+ *
+ * Written as a Tailwind CSS v4 @theme block (the only current web
+ * consumer, klepon-marketing, is Tailwind v4) — @import this file
+ * before any local @theme block; Tailwind merges multiple @theme
+ * blocks in a build. A non-Tailwind consumer can still read these as
+ * plain custom properties (`@theme` behaves like `:root` for that
+ * purpose outside of Tailwind's own build step), but won't get
+ * Tailwind's automatic utility-class generation from them. */
+
+@theme {
+  --color-brand-bg: #F2F2F2;
+  --color-brand-navy: #002E3A;
+  --color-brand-navy-700: #0A3F4D;
+  --color-brand-green: #11A46E;
+  --color-brand-green-100: #E6F8EF;
+  --color-brand-green-200: #C2EEDA;
+  --color-brand-green-300: #8FDFB9;
+  --color-brand-green-400: #55CB92;
+  --color-brand-green-500: #2BB87A;
+  --color-brand-green-600: #11A46E;
+  --color-brand-green-700: #0C7D55;
+  --color-brand-green-800: #095E40;
+  --color-brand-green-900: #06432D;
+  --color-brand-slate: #30383D;
+  --color-brand-teal: #40626C;
+  --color-brand-orange: #D95527;
+  --color-brand-amber: #D9A127;
+  --color-bg: #F2F2F2;
+  --color-surface: #E9E9EA;
+  --color-divider: color-mix(in srgb, #002E3A 14%, transparent);
+
+  --font-brand: "Urbanist", system-ui, sans-serif;
+
+  --text-micro-xs: 9px;
+  --text-micro-sm: 10px;
+  --text-micro: 11px;
+  --text-label: 13px;
+  --text-body: 15px;
+  --text-bodyLarge: 18px;
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 7px;
+  --radius-2xl: 16px;
+  --radius-3xl: 22px;
+  --radius-full: 9999px;
+
+  --spacing: 0.2125rem;
+
+  --shadow-elev-sm: 0 1px 2px rgba(0, 46, 58, 0.10);
+  --shadow-elev-md: 0 3px 10px rgba(0, 46, 58, 0.12);
+  --shadow-elev-lg: 0 12px 32px rgba(0, 46, 58, 0.18);
+}

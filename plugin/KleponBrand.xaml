@@ -1,0 +1,33 @@
+<!-- GENERATED FILE — do not hand-edit.
+ Source: tokens.json — run `node scripts/build-plugin-xaml.mjs` to regenerate.
+
+ Key names match AmaiTheme.xaml's existing brushes, so that file can
+ merge this in (<ResourceDictionary.MergedDictionaries>) and swap its
+ own hardcoded SolidColorBrush values for StaticResource references
+ here, instead of keeping a second hand-typed copy. Not wired in
+ automatically — that edit needs someone who can build/verify WPF. -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Plain white, not a brand token. -->
+    <SolidColorBrush x:Key="AmaiWhiteBrush" Color="#FFFFFFFF"/>
+
+    <!-- Primary ink. Body text, headings, and — at full opacity as a fill — the dark 'premium panel' surface (footer, CTA banners). -->
+    <SolidColorBrush x:Key="AmaiTealBrush" Color="#FF002E3A"/>
+
+    <!-- Secondary accent, not yet wired into either consumer. -->
+    <SolidColorBrush x:Key="AmaiTealSoftBrush" Color="#FF40626C"/>
+
+    <!-- Secondary accent, not yet wired into either consumer. -->
+    <SolidColorBrush x:Key="AmaiOrangeBrush" Color="#FFD95527"/>
+
+    <!-- Secondary accent, not yet wired into either consumer. General-purpose (data viz, illustration) — not a semantic error/warning color. -->
+    <SolidColorBrush x:Key="AmaiTextBrush" Color="#FF30383D"/>
+
+    <!-- Secondary accent, not yet wired into either consumer. -->
+    <SolidColorBrush x:Key="AmaiMutedTextBrush" Color="#FF40626C"/>
+
+    <!-- The one accent. Literal fill color in the real logo file (klepon-mark / klepon-logo) — not a guess. Anchors ramp step 600. -->
+    <SolidColorBrush x:Key="AmaiGreenBrush" Color="#FF11A46E"/>
+
+</ResourceDictionary>
